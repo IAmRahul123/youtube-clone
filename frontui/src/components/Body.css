@@ -1,0 +1,8 @@
+/** @format */
+
+.Body-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 22px 96px;
+}

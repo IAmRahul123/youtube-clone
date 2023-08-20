@@ -1,0 +1,15 @@
+/** @format */
+
+.body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.body {
+	display: flex;
+	flex: 7;
+}
+.drawer {
+	display: flex;
+	flex: 1;
+}

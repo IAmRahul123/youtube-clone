@@ -1,0 +1,59 @@
+/** @format */
+
+.scrollable-div {
+	background-color: #202020;
+	/* position: relative; */
+	/* margin-top: 1rem; */
+	/* padding-left: 2rem; */
+}
+
+.signin {
+	display: flex;
+	align-items: center;
+	align-self: center;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	padding-left: 2rem;
+}
+.itemView {
+	display: flex;
+	align-items: center;
+	align-self: center;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	cursor: pointer;
+	padding-left: 2rem;
+	width: 200px;
+}
+.itemView:hover {
+	background-color: #4d4d4d;
+}
+.itemView > span {
+	padding-left: 1.2rem;
+	font-weight: 400;
+	font-size: 18px;
+	align-self: center;
+}
+
+.separator {
+	margin: 15px 0px;
+	border: 0.5px solid #373737;
+	width: 220px;
+}
+
+.btn {
+	padding: 5px;
+	background-color: transparent;
+	border: 1px solid #3ea6ff;
+	color: #3ea6ff;
+	border-radius: 3px;
+	font-weight: 500;
+	margin-top: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.btn > span {
+	padding-left: 3px;
+}

@@ -1,0 +1,80 @@
+/** @format */
+.MainContainerHome {
+	display: flex;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 200ms ease;
+	background-color: #181818;
+}
+
+::-webkit-scrollbar:hover {
+	opacity: 1;
+}
+
+::-webkit-scrollbar-track {
+	background: #202020;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: grey;
+	border-radius: 10px;
+}
+
+.FullDrawer {
+	background-color: #202020;
+	position: sticky;
+	top: 0;
+}
+
+.titles {
+	position: sticky;
+	top: 0;
+}
+.main {
+	height: 92.5vh;
+	width: 250px;
+	/* padding-right: 30px; */
+	background-color: #202020;
+	position: sticky;
+	top: 0;
+	/* overflow-y: hidden; */
+	overflow-y: hidden;
+}
+.sm-main {
+	height: 100vh;
+	width: 80px;
+	/* padding-right: 30px; */
+	background-color: #202020;
+	position: sticky;
+	top: 0;
+	/* overflow-y: hidden; */
+}
+.main:hover {
+	overflow-y: scroll;
+}
+/* 
+@media (hover: none) {
+	.main {
+		&::-webkit-scrollbar {
+			width: 8px;
+		}
+		&::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+	}
+} */
+
+/* .BodyAll {
+	overflow-y: scroll;
+	padding: 22px 96px;
+} */

@@ -1,0 +1,43 @@
+/** @format */
+
+.mainContainers {
+	margin-left: 2rem;
+	margin-top: -0.8rem;
+	display: flex;
+}
+.inputBox {
+	display: flex;
+	flex-direction: row;
+}
+
+.inputBox > input {
+	display: flex;
+	font-size: 18px;
+	padding: 0.3rem;
+	border: 1.8px solid #d6d1d1;
+	width: 40rem;
+	outline: none;
+}
+
+.inputBox > input:focus {
+	border: 0.5px solid #355ce8;
+}
+
+.btnsearch {
+	padding: 0rem 1.5rem;
+	border-top: 1.8px solid #d6d1d1;
+	border-bottom: 1.8px solid #d6d1d1;
+	border-right: 1.8px solid #d6d1d1;
+	border-left: none;
+}
+.iconSearch {
+	color: #444036;
+}
+
+.mic {
+	display: flex;
+	background-color: #f7f4f4;
+	border-radius: 100px;
+	padding: 1rem;
+	margin-left: 1rem;
+}

@@ -1,0 +1,36 @@
+/** @format */
+.comments-data {
+	display: flex;
+}
+.one-comment {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+.one-comment > img {
+	margin-right: 10px;
+}
+.one-comment > span {
+	display: flex;
+	line-height: 20px;
+}
+
+.comment-containers {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.detail-data {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+.active-time {
+	color: #666;
+	margin-left: 50px;
+}
+
+.comment {
+	text-align: left;
+}

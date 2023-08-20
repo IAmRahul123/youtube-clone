@@ -1,0 +1,23 @@
+/** @format */
+
+.comment-container {
+	display: flex;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+.user-image {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #168d92;
+}
+.comment-container > input {
+	margin-left: 10px;
+	width: 100%;
+	border: none;
+	outline: none;
+	background-color: #181818;
+	border-bottom: 0.5px solid #666;
+	font-size: 18px;
+	color: #fff;
+}

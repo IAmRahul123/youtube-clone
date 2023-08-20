@@ -1,0 +1,33 @@
+/** @format */
+.mainCont {
+	margin-top: -1rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.spaceIcon {
+	flex: 1;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.setIcon {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.User {
+	display: flex;
+	background-color: purple;
+	padding: 0.5rem 0.8rem;
+	border-radius: 20rem;
+	margin-left: 1.5rem;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.icon {
+	display: flex;
+	margin-left: 1.5rem;
+}

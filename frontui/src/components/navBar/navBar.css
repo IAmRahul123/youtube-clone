@@ -1,0 +1,75 @@
+/** @format */
+
+.mainContainer {
+	display: flex;
+	height: 4rem;
+	/* justify-content: center; */
+	width: 100%;
+	background-color: #202020;
+}
+
+.custom-scrollbars .track {
+	opacity: 0;
+	transition: opacity 200ms ease;
+}
+
+.custom-scrollbars:hover .track {
+	opacity: 1;
+}
+
+.allchanges {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+}
+.container > input {
+	/* display: flex; */
+	font-size: 18px;
+	padding: 0.7rem;
+	border: 1.8px solid #202020;
+	width: 50%;
+	outline: none;
+	align-self: center;
+	background-color: #181818;
+	color: #fff;
+}
+
+.inner-search-icon {
+	top: 50%;
+	left: 0%;
+	transform: translate(150%, 0%);
+	color: white;
+}
+
+.container > input:focus {
+	border: 0.5px solid #355ce8;
+}
+
+.btnSearch {
+	display: flex;
+	align-self: center;
+	padding: 0.6rem 1.5rem;
+	border-top: 1.8px solid #202020;
+	border-bottom: 1.8px solid #202020;
+	border-right: 1.8px solid #202020;
+	border-left: none;
+	cursor: pointer;
+	background-color: #313131;
+}
+
+.micIcon {
+	display: flex;
+	background-color: #181818;
+	border-radius: 100px;
+	padding: 1rem;
+	margin-left: 1rem;
+}

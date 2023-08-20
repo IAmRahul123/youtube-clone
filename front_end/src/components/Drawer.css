@@ -1,0 +1,36 @@
+/** @format */
+
+.drawerContainer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding-top: 6rem;
+	padding-left: 2rem;
+	/* background-color: red; */
+	width: 14%;
+	border-bottom: 0.5px solid #d6d1d1;
+}
+
+.drawerContainer2 {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	/* background-color: red; */
+	width: 14%;
+}
+
+.itemView {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+.icons {
+	margin-right: 1rem;
+}
+
+.itemText {
+	font-size: 18px;
+}

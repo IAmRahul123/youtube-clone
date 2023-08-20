@@ -1,0 +1,31 @@
+/** @format */
+
+.mainContainer {
+	padding: 1.5rem 2rem 0.6rem;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1.5px solid #d6d1d1;
+	align-items: center;
+	flex: 1;
+	position: absolute;
+}
+.container {
+	display: flex;
+}
+.imgStyle {
+	display: flex;
+	height: 1.5rem;
+	margin-left: 1.5rem;
+}
+.middle {
+	display: flex;
+	margin-left: 15rem;
+}
+.searchView {
+	display: flex;
+}
+
+.iconView {
+	margin-left: 15rem;
+	align-self: center;
+}
